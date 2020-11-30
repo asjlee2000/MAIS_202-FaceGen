@@ -9,14 +9,19 @@ The aim of this project is to utilize a Generative Adversarial Network to create
 My project seeks to take an elementary approach to Image Generation by using the readily available CelebA dataset of celebrity faces. The GAN model is comprised of a basic discriminator which can tell the difference between real and fake images and a generator which seeks to keep improving and generate more realistic photos to trick the discriminator.
 
 ## To run the project
-Download the four files:
+Download the eight files:
 ```
 Image_GAN_Model.py
 Predict.py
-dataset_processed_25000.npy
 generator_weights_200.h5
+dataset_processed_25000.part1.rar
+dataset_processed_25000.part2.rar
+dataset_processed_25000.part3.rar
+dataset_processed_25000.part4.rar
+dataset_processed_25000.part5.rar
 ```
-Make sure to put all four files in the same folder.
+Unzip the 5 .rar files to get a single dataset_processed_25000.npy file.
+Make sure to put all files in the same folder.
 
 To train the model from beginning to end, run 
 ```
